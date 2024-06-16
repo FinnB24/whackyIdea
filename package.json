@@ -1,8 +1,8 @@
 {
   "name": "website",
-  "private": true,
   "homepage": "https://finnb24.github.io/personal-website",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "vite build",
