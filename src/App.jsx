@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
     return (
-        <main className='bg-slate-300/20'>
+        <main className='bg-slate-800/90'>
             <HashRouter>
                 <Navbar />
                 <Routes>
@@ -16,7 +16,6 @@ const App = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />
-                    {/* Redirect unknown routes to Home */}
                     <Route path="*" element={<Home />} />
                 </Routes>
             </HashRouter>
